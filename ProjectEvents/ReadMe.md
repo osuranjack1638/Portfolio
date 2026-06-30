@@ -2,7 +2,7 @@ Project Events
 
 Project Events is a module that handles remote event usage and server-to-server communication for you using a simple unified API and software engineering principles.
 
-*Memory Management: The module handles memory management for you and automatically prevents memory leaks.
+* Memory Management: The module handles memory management for you and automatically prevents memory leaks.
 * Toggleable Debugging: You can easily enable/disable debugging for your specific development needs.
 * Version Control: The module automatically checks for new versions, but this can be disabled in the config.
 
