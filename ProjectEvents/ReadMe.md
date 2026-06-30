@@ -15,10 +15,12 @@ How to setup?
 Functions:
 
 ProjectEvents.Connect(EventName, CallbackFunction)
+
 Connects the given CallbackFunction to the event named EventName.
 Returns a connection object that you can easily disconnect using the ":Disconnect()" function.
 
 ProjectEvents.Fire(EventName, SendToClient, Player, ...)
+
 If called from the server, the following things happen:
 
 If SendToClient is enabled and Player is given as an argument then the event with name EventName is fired to the Player client with the arguments (...).
