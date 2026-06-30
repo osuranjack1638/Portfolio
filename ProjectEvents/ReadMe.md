@@ -27,11 +27,15 @@ If called from the server, the following things happen:
 
 If SendToClient is enabled and Player is given as an argument then the event with name EventName is fired to the Player client with the arguments (...).
 
+
 If SendToClient is enabled but Player is not given, then the event with name EventName is fired to all clients that are listening with the arguments (...).
+
 
 If SendToClient is not enabled then the event with name EventName is fired to all server scripts that are listening with the arguments (...).
 
 If called from the client, the following thing happens:
+
+
 (SendToClient and Player arguments don't have to be filled. They aren't used.)
 
 The client fires the event named EventName to the server scripts that are listening to the event. It gives the Player that fired the event and (...) as the arguments.
