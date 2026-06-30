@@ -15,6 +15,8 @@ How to setup?
 Functions:
 
 ProjectEvents.Connect(EventName, CallbackFunction):
+
+
 Connects the given CallbackFunction to the event named EventName.
 Returns a connection object that you can easily disconnect using the ":Disconnect()" function.
 
