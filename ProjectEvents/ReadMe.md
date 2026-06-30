@@ -21,10 +21,14 @@ Connects the given CallbackFunction to the event named EventName.
 Returns a connection object that you can easily disconnect using the ":Disconnect()" function.
 
 ProjectEvents.Fire(EventName, SendToClient, Player, ...):
+
+
 If called from the server, the following things happen:
 
 If SendToClient is enabled and Player is given as an argument then the event with name EventName is fired to the Player client with the arguments (...).
+
 If SendToClient is enabled but Player is not given, then the event with name EventName is fired to all clients that are listening with the arguments (...).
+
 If SendToClient is not enabled then the event with name EventName is fired to all server scripts that are listening with the arguments (...).
 
 If called from the client, the following thing happens:
