@@ -14,3 +14,8 @@ I only accept robux as payment.
 You can contact me from the platforms below:
 - Discord: `_.aizensosuke_`
 
+---
+
+##Extra
+If you are wondering, you are free to use everything you see in this repository under the license found in the LICENSE file.
+If you find a bug on any of the systems here, please contact me and let me know.
